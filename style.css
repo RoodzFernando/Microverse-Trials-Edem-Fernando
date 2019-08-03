@@ -1,0 +1,6 @@
+@media(max-width:669px){
+    #welcome-section{
+        height: 100vh;
+        background-color: blue;
+    }
+}
