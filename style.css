@@ -1,6 +1,42 @@
-@media(max-width:669px){
-    #welcome-section{
+@media(max-width:669px) {
+    #welcome-section {
         height: 100vh;
         background-color: blue;
     }
+}
+
+* {
+    margin-left: 0;
+}
+
+body {
+    background: #45567D;
+}
+
+#navbar {
+    background: #BE3144;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    margin: 25px;
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
 }
