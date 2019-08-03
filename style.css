@@ -22,47 +22,55 @@ body {
     top: 0;
     width: 100%;
 }
-#welcome-section{
+
+#welcome-section {
     background-color: #2F3133;
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
     margin-right: -20px;
     padding: 120px 0;
 }
-#welcome-section h1{
+
+#welcome-section h1 {
     font-size: 6rem;
     color: #FFF;
     margin: 0;
 }
-#welcome-section p{
+
+#welcome-section p {
     font-size: 3rem;
-    color:#BE3143;
+    color: #BE3143;
     font-style: italic;
     margin: 0;
 }
-#projects{
+
+#projects {
     display: flex;
     justify-content: space-around;
 }
-#projects .project-tile{
+
+#projects .project-tile {
     display: flex;
     flex-direction: column;
     /* background: #BBBCCC; */
 }
-#projects .project-tile img{
+
+#projects .project-tile img {
     width: 100%;
     height: 300px;
 }
-#projects .project-tile p{
+
+#projects .project-tile p {
     border: 1px solid #303841;
-    background-color:#303841;
-    color:#FFF;
+    background-color: #303841;
+    color: #FFF;
     margin: 0;
     text-align: center;
     padding: 15px 0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
 ul {
     list-style: none;
     text-align: right;
@@ -80,4 +88,23 @@ a {
 
 nav a {
     color: white;
+}
+
+footer {
+    background: #303841;
+    margin-bottom: 0;
+}
+
+.invitation {
+    text-align: center;
+}
+
+.footer-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links li a {
+    color: #FFF;
+    padding: 15px;
 }
